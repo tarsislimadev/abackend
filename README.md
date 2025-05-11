@@ -31,7 +31,7 @@ npm i abackend
 ```js
 // index.js
 
-import { Server } from 'abackend'
+const { Server } = require('abackend')
 
 const server = new Server()
 
